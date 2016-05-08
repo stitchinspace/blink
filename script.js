@@ -4,7 +4,6 @@ function main() {
 	var canvas = document.getElementById('canvas');
 	var obj = canvas.getContext('2d');
 	var blinkers = []; 
-	var blinkers = [];
 	var x=canvas.width*0.04;
 	var y=canvas.height*0.04;
 	var counter = 0;
