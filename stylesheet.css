@@ -4,17 +4,15 @@
 box-sizing: border-box;
 }
 
-#background {
-	background-image: url("griddybackgroundbig2.png");
-	background-size: 100%;
-	background-repeat: no-repeat;	
-	}
+body{
+background-image: url("griddybackgroundbig2.png");
+}
 
 #canvas {
 
 	border:	0.75em solid rgb(31, 53, 90);
-	width:	80%; 
-	height:	80%;
-	margin: 10%;
+	width:	80%;
+	max-height: 900px;
+	margin: 10px;
 	padding:10px;
 	}
